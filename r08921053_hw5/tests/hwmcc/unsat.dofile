@@ -1,0 +1,28 @@
+read aig 6s136.aig
+satv itp -o 0
+usage
+read aig 6s206rb025.aig
+satv itp -o 0
+usage
+read aig 6s221rb18.aig
+satv itp -o 0
+usage
+read aig 6s326rb02.aig
+satv itp -o 0
+usage
+read aig 6s327rb10.aig
+satv itp -o 0
+usage
+read aig 6s380b129.aig
+satv itp -o 0
+usage
+read aig 6s6.aig
+satv itp -o 0
+usage
+read aig pdtpmsfpmult.aig
+satv itp -o 0
+usage
+read aig pj2018.aig
+satv itp -o 0
+usage
+q -f

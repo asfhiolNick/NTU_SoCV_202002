@@ -1,0 +1,19 @@
+read aig 6s307rb06.aig
+satv itp -o 0
+usage
+read aig 6s374b029.aig
+satv itp -o 0
+usage
+read aig 6s388b07.aig
+satv itp -o 0
+usage
+read aig abp4pold.aig
+satv itp -o 0
+usage
+read aig bob9234spec7neg.aig
+satv itp -o 0
+usage
+read aig bobpci215.aig
+satv itp -o 0
+usage
+q -f
