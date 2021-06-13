@@ -1,0 +1,5 @@
+The design vending-simple includes input.pattern & vending.v
+You can use them for practicing v3 usage.
+You can also construct your own input patterns for simulation.
+For the input & output pattern format of V3, please refer to Appendix B of 
+V3_tutorial.
