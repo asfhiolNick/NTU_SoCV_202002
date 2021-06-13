@@ -1,0 +1,33 @@
+read rtl tests/Traffic.v
+blast ntk
+bsetorder -file
+bconstruct -all
+pinit init
+ptrans
+pimage -next 10
+pcheckp -o 8
+pcheckp -o 9
+pcheckp -o 10
+pimage -next 10
+pcheckp -o 8
+pcheckp -o 9
+pcheckp -o 10
+pimage -next 10
+pcheckp -o 8
+pcheckp -o 9
+pcheckp -o 10
+pimage -next 10
+pcheckp -o 8
+pcheckp -o 9
+pcheckp -o 10
+pimage -next 10
+pcheckp -o 8
+pcheckp -o 9
+pcheckp -o 10
+pimage -next 50
+pcheckp -o 8
+pcheckp -o 10
+pimage -next 50
+pcheckp -o 8
+pcheckp -o 10
+quit -f

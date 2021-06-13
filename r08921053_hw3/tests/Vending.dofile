@@ -1,0 +1,40 @@
+read rtl tests/Vending.v
+breset 108 8009 30011
+blast ntk
+bsetorder -file
+bconstruct -all
+pinit init
+ptrans
+pimage -next 1
+pcheckp -p 0
+pcheckp -q 0
+pcheckp -r 0
+pimage -next 1
+pcheckp -p 0
+pcheckp -q 0
+pcheckp -r 0
+pimage -next 1
+pcheckp -p 0
+pcheckp -q 0
+pcheckp -r 0
+pimage -next 1
+pcheckp -p 0
+pcheckp -q 0
+pcheckp -r 0
+pimage -next 1
+pcheckp -p 0
+pcheckp -q 0
+pcheckp -r 0
+pimage -next 1
+pcheckp -p 0
+pcheckp -q 0
+pcheckp -r 0
+pimage -next 1
+pcheckp -p 0
+pcheckp -q 0
+pcheckp -r 0
+pimage -next 1
+pcheckp -p 0
+pcheckp -q 0
+pcheckp -r 0
+quit -f
